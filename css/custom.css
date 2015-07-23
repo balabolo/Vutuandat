@@ -1,13 +1,4 @@
-/*
- |----------------------------------------------------
- | custom.css
- |----------------------------------------------------
- |
- | Custom Style Sheet for Homework 1
- | @author: Dao Duc Cuong
- | @createdat: 18 January 2015 (Sunday) 10:47
- |
- */
+
  @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600&subset=latin,vietnamese);
 
  body {
@@ -24,7 +15,7 @@
  }
 
  h1, h2, h3, h4, a {
- 	color: #A52714;
+ 	color: #096DEA;
  }
 
  /*#content-wrapper,
@@ -113,7 +104,7 @@
 
  .navigation-bar ul > li > a:hover {
  	text-decoration: none;
-	color: #A52714 !important;
+	color: #096DEA !important;
  }
  /**
   * Header
@@ -126,15 +117,15 @@
 
  .header .cover-img {
  	width: 100%;
- 	height: 335px;
- 	margin-top: -2px;
+ 	height: 350px;
+ 	margin-top: 0px;
  	border-bottom-right-radius: 2px;
  	border-bottom-left-radius: 2px;
  	border: 1px solid #ddd;
  	background-color: #ccc;
  	background: url('../img/cover_img.jpg') no-repeat;
  	background-size: cover;
- 	background-position: 0px -90px;
+ 	background-position: 0px 0px;
  }
 
  .header .cover-img:hover {
@@ -186,10 +177,11 @@
  .header .name .title {
 	font-size: 52px;
 	font-weight: 300;
-	margin-top: 0;
+	margin-left: 20px;
+	margin-top: 0px;
 	margin-bottom: 0;
-	color: #fff;
-	text-shadow: 0px 0px 8px rgba(0,0,0,0.59);
+	color: #39B9B9;
+	text-shadow: 0px 0px 8px rgba(255,255,255,0.6);
  }
 
  .avatar-img {
@@ -210,7 +202,7 @@
  .body-section .section-title {
  	padding: 5px 0px 5px 15px;
  	margin-bottom: 10px;
- 	border-left: 4px solid #A52714;
+ 	border-left: 4px solid #096DEA;
  	background-color: #fafafa;
  }
 
@@ -241,7 +233,7 @@
  	margin-top: 10px;
  	padding: 10px 0 10px 10px;
  	background-color: #eaeaea;
- 	border-top: 2px solid #A52714 ;
+ 	border-top: 2px solid #096DEA ;
  }
 
  .footer p {
